@@ -3,6 +3,7 @@ from selenium import webdriver
 print('Input your user name')
 userEmail = input()
 print('Input your password')
+userPassword = input()
 
 browser = webdriver.Firefox()
 browser.get('https://login.microsoftonline.com/')
