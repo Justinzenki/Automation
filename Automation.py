@@ -12,5 +12,5 @@ emailElem.send_keys(userEmail)
 
 passwordElem = browser.find_element_by_id('cred_userid_inputtext')
 passwordElem.send_keys(userPassword)
-passwordElem.submit()
+
 
